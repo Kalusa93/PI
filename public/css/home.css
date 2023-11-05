@@ -1,10 +1,19 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: #EAC926;;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar, .header {
+    background-color: #EAC926;
 }
 
 .logo {
     width: 20%;
+}
+
+.home-banner img{
+    max-width: 100%;
 }
 
 .search-bar {
@@ -56,8 +65,31 @@ li a {
     cursor: pointer;
     font-size: 24px;
     color: #ebebeb; /* Color del icono */
+    padding: 5px 10px;
 }
 
 .fas.fa-bars {
     background-color: #1259c3;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.seccion {
+    text-align: center; /* Centrar horizontalmente el contenido */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa-solid.fa-credit-card, .fa-solid.fa-gift, .fa-solid.fa-user-shield {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
 }
