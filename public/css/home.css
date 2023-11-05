@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+
 .navbar, .header {
     background-color: #EAC926;
 }
@@ -31,7 +38,17 @@
 }
 
 .promo {
-    display: flex;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 10px;
+}
+
+.contenido {
+    border-top: 1px solid #ebebeb; /* Borde superior */
+    padding: 15px; /* Espacio alrededor del contenido */
+    background-color: white;
 }
 
 i.fa-solid.fa-hand-holding-dollar {
@@ -74,10 +91,19 @@ li a {
 
 h2 {
     font-size: 24px;
+    color: #666;
+}
+
+h3 {
+    color: #666
 }
 
 .price {
     font-size: 18px;
+}
+
+.discount, .fa-solid.fa-truck {
+    color: #39b54a;
 }
 
 .seccion {
