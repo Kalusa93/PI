@@ -1,0 +1,63 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;;
+}
+
+.logo {
+    width: 20%;
+}
+
+.search-bar {
+    padding: 10px;
+}
+
+.search-bar input {
+    width: 15%;
+    background-color: #ebebeb;;
+    font-size: 16px;
+}
+
+.search-bar button, .fas.fa-search {
+    background-color: #ebebeb;
+}
+
+.promo {
+    display: flex;
+}
+
+i.fa-solid.fa-hand-holding-dollar {
+    align-items: center;
+}
+
+.icon-container {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none; /* Sin subrayado en enlaces */
+    color: #000; /* Color de texto negro */
+    text-align: left;
+}
+
+.menu-button {
+    display: block; /* Por defecto, ocultar en pantallas más grandes */
+    margin-left: 100px;
+}
+
+/* Estilos para el botón de hamburguesa */
+#toggle-menu {
+    background-color: #1259c3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ebebeb; /* Color del icono */
+}
+
+.fas.fa-bars {
+    background-color: #1259c3;
+}
