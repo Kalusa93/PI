@@ -72,7 +72,7 @@ li a {
 
 .menu-button {
     display: block; /* Por defecto, ocultar en pantallas más grandes */
-    margin-left: 100px;
+    text-align: center;
 }
 
 /* Estilos para el botón de hamburguesa */
@@ -124,8 +124,11 @@ h3 {
     .producto .info .descripcion {
         display: none; /* Ocultar la descripción en dispositivos móviles */
     }
-    .header {
+    .search-bar, .navbar ul{
         display: none;
+    }
+    .menu-button {
+        display: block; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
     }
 }
 
@@ -134,11 +137,17 @@ h3 {
     .menu-button {
         display: none; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
     }
+    .producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }
 
 /* Estilos para desktop (ancho mínimo de 769 px) */
 @media (min-width: 769px) {
     .menu-button {
         display: none; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
+    }
+    .producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
