@@ -119,3 +119,26 @@ h3 {
     margin-bottom: 10px;
     color: #1259c3;
 }
+
+@media (max-width: 360px) {
+    .producto .info .descripcion {
+        display: none; /* Ocultar la descripción en dispositivos móviles */
+    }
+    .header {
+        display: none;
+    }
+}
+
+/* Estilos para tablets (ancho mínimo de 361 px) */
+@media (min-width: 361px) {
+    .menu-button {
+        display: none; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
+    }
+}
+
+/* Estilos para desktop (ancho mínimo de 769 px) */
+@media (min-width: 769px) {
+    .menu-button {
+        display: none; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
+    }
+}
