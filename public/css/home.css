@@ -117,6 +117,7 @@ li a {
 .menu-button {
     display: block; /* Por defecto, ocultar en pantallas más grandes */
     text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Estilos para el botón de hamburguesa */
@@ -208,6 +209,9 @@ h3 {
     }
     .logo, .search-bar {
         width: 50%;
+    }
+    .search-bar input {
+        border: none;
     }
 }
 
