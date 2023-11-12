@@ -37,7 +37,7 @@
 }
 
 .search-bar input {
-    width: 45%;
+    width: 90%;
     background-color: #ebebeb;;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -203,5 +203,8 @@ h3 {
     }
     .logo, .search-bar, .promo {
         width: 33%;
+    }
+    .search-bar, .promo {
+        align-self: center;
     }
 }
