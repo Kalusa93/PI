@@ -22,8 +22,9 @@
     background-color: #EAC926;
 }
 
-.logo {
-    width: 20%;
+.head {
+    display: flex;
+    align-content: space-around;
 }
 
 .home-banner img{
@@ -31,13 +32,16 @@
 }
 
 .search-bar {
+    width: 100%;
     padding: 10px;
 }
 
 .search-bar input {
-    width: 15%;
+    width: 90%;
     background-color: #ebebeb;;
     font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .search-bar button, .fas.fa-search {
@@ -183,6 +187,9 @@ h3 {
         width: calc(50% - 20px);
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .logo, .search-bar {
+        width: 50%;
+    }
 }
 
 /* Estilos para desktop (ancho mínimo de 769 px) */
@@ -193,5 +200,11 @@ h3 {
     .producto {
         width: calc(25% - 20px);
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .logo, .search-bar, .promo {
+        width: 33%;
+    }
+    .search-bar, .promo {
+        align-self: center;
     }
 }
