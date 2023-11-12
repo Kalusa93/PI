@@ -17,8 +17,9 @@
                 <img src="../images/logo-mercado-liebre.svg" alt="Logo">
             </div>
             <div class="search-bar">
-                <input type="text" placeholder="Buscar productos, marcas">
-                <button><i class="fas fa-search"></i></button>
+                <form action="/" method="get" class="search-form">
+                    <input type="search" id="search-input" name="q" class="search-input" placeholder="Buscar productos, marcas">
+                </form>
             </div>
             <div class="promo">
                 <i class="fas fa-credit-card"></i> Comprá en cuotas y sin tarjeta de crédito
@@ -26,23 +27,24 @@
         </div>
         <br>
         <nav class="navbar">
-            <ul>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <br>
-                <li><a href="#">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
-                <li><a href="#">Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i></a></li>
-                <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
-            </ul>
-            <br>
+            <div class="head-bottom">
+                <ul class="ul-left">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul class="ul-right">
+                    <li class="right"><a href="#">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                    <li class="right"><a href="#">Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i></a></li>
+                    <li class="right"><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+            </div>
             <div class="menu-button">
                 <button id="toggle-menu">
                     <i class="fas fa-bars"></i>
                 </button>
-            </div>   
-            <br>  
+            </div>  
             <div class="home-banner">
                 <img src="../images/img-home-banner.jpg" alt="home-banner">
             </div>       
