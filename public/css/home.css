@@ -223,7 +223,6 @@ section article:hover{
     }
 }
 
-/* Estilos para tablets (ancho mínimo de 361 px) */
 @media (min-width: 361px) {
     .menu-button {
         display: none; /* Ocultar la imagen del menú hamburguesa en tablets y desktop */
@@ -241,8 +240,8 @@ section article:hover{
 
 @media (max-width: 768px) {
     .ul-left li, .ul-right li {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
