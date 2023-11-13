@@ -29,9 +29,14 @@ label {
 
 .label-buy-sell, .checkbox-group {
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.label-buy-sell input {
+    width: 20px;
+    margin-right: 10px;
 }
 
 input, select {
