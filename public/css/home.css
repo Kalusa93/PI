@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.head {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -37,11 +43,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
-
-.head {
-    display: flex;
-    align-content: space-around;
 }
 
 .home-banner img{
