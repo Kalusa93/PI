@@ -66,3 +66,9 @@ button:hover {
     padding-top: 30px;
     margin-top: 20px;
 }
+
+@media (max-width: 767px) {
+    .register-form-container, .login-form {
+        width: 70%;
+    }
+}
