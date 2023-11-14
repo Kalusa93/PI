@@ -243,6 +243,9 @@ section article:hover{
         padding-left: 5px;
         padding-right: 5px;
     }
+    .head-bottom {
+        flex-wrap: wrap;
+    }
 }
 
 /* Estilos para desktop (ancho mínimo de 769 px) */
