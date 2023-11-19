@@ -203,6 +203,11 @@ section article:hover{
     color: #1259c3;
 }
 
+.copyright p {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 360px) {
     .producto .info .descripcion {
         display: none; /* Ocultar la descripción en dispositivos móviles */
